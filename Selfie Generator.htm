@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" style="">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <title>Selfie Generator</title>
+  <link rel="stylesheet" href="null.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="css2.css" rel="stylesheet">
+  <!-- noUiSlider -->
+  <link rel="stylesheet" href="nouislider.min.css">
+  <script src="nouislider.min.js"></script>
+  <link rel="icon" type="image/png" href="https://myro2.club/image/favicon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div class="custom-instagram__head">
+    <img src="logo.svg" alt="" class="instagram-logo">
+    <div class="custom-instagram__head_items">
+      <a href="https://twitter.com/SelfieCat_sol">
+        <img src="x.svg" alt="">
+      </a>
+      <a href="https://t.me/selfiecat_portal">
+        <img src="tg.svg" alt="">
+      </a>
+    </div>
+  </div>
+  <div class="custom-instagram__wrap" data-photo-wrap="">
+    <img src="instagram-bg.png" class="custom-instagram__wrap_bg">
+    <div class="custom-instagram__filters filters">
+      <div class="label">
+        Select attributes
+      </div>
+      <div class="filters__items" data-choose-cat="1" data-several="true">
+        <div class="filters__item" data-index="0">
+          <img src="1.png" alt="">
+        </div>
+        <div class="filters__item" data-index="1">
+          <img src="2.png" alt="">
+        </div>
+        <div class="filters__item" data-index="2">
+          <img src="3.png" alt="">
+        </div>
+        <div class="filters__item" data-index="3">
+          <img src="4.png" alt="">
+        </div>
+        <div class="filters__item" data-index="4">
+          <img src="5.png" alt="">
+        </div>
+        <div class="filters__item" data-index="5">
+          <img src="6.png" alt="">
+        </div>
+        <div class="filters__item" data-index="6">
+          <img src="7.png" alt="">
+        </div>
+        <div class="filters__item" data-index="7">
+          <img src="8.png" alt="">
+        </div>
+      </div>
+      <div class="label">
+        Rotate attributes
+      </div>
+      <div data-attr-rotate-wrap=""></div>
+      <div class="filters__line"></div>
+      <div class="label">
+        Choose your cat
+      </div>
+      <div class="filters__items" data-choose-cat="2">
+        <div class="filters__item" data-index="0">
+          <img src="cat-1.png" alt="">
+        </div>
+        <div class="filters__item" data-index="1">
+          <img src="cat-2.png" alt="">
+        </div>
+        <div class="filters__item filters__item-height" data-index="2">
+          <img src="cat-3.png" alt="">
+        </div>
+        <div class="filters__item filters__item-height" data-index="3">
+          <img src="cat-4.png" alt="">
+        </div>
+      </div>
+
+      <div class="label">
+        Number of views
+      </div>
+      <input type="number" value="12000" data-to-show-input="views">
+      <div class="label">
+        Write your meowent
+      </div>
+      <textarea data-to-show-input="texts">Say MEOOW</textarea>
+    </div>
+    <div class="left-inst__wrap">
+      <div class="content-instagram" data-content-photo="">
+        <div class="custom-instagram">
+          <div class="custom-instagram__image">
+            <div class="wrap-full" style="">
+              <img src="cat-w-bg-1.jpg" alt="" class="custom-instagram__image_img" data-upload-photo-preview="">
+              <div class="resize-handle"></div>
+              <div class="resize-handle resize-handle-top"></div>
+            </div>
+            <div data-several-preview="1"></div>
+            <div class="wrap none">
+              <img src="" data-choose-cat-preview="2">
+              <div class="resize-handle"></div>
+              <img src="close.webp" alt="" data-remove-cat="2">
+            </div>
+          </div>
+          <div class="custom-instagram__icons">
+            <div class="icons__left">
+              <img src="like.svg" alt="">
+              <img src="comment.svg" alt="">
+              <img src="share.svg" alt="">
+            </div>
+            <img src="saved.svg" alt="">
+          </div>
+          <div class="custom-instagram__views">
+            <span data-to-show-content="views" class="instagram-text">12000</span> <span
+              class="instagram-text">views</span>
+          </div>
+          <div class="custom-instagram__text">
+            <span class="instagram-text instagram-text-weight">$SELFIE CAT</span><span data-to-show-content="texts"
+              class="instagram-text">Say MEOOW</span>
+          </div>
+        </div>
+      </div>
+      <div class="instagram-btns">
+        <button data-create-photo="" class="instagram-btn">
+          Create Selfie
+        </button>
+        <input type="file" data-hidden-file="" style="display: none;" accept="image/*">
+        <button data-download-photo="" class="instagram-btn instagram-btn-orange">
+          Download
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="interact.min.js"></script>
+  <script src="html2canvas.min.js"></script>
+  <script src="app.js"></script>
+
+
+</body>
+
+</html>
